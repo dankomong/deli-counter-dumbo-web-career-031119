@@ -8,8 +8,8 @@ def line(array)
       num_person = " #{index + 1}. #{name}"
       phrase += num_person
     end
-    puts phrase
   end
+  puts phrase
 end
 
 # def line(array) 
