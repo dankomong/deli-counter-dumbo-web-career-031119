@@ -13,5 +13,7 @@ def line(array)
 end
 
 def take_a_number(array, string)
-  
+  array.push(string)
+  pos = array.index(string)
+  puts "Welcome, #{string}. You are number #{pos + 1} in line"
 end
