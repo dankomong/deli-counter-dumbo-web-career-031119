@@ -9,5 +9,5 @@ def line(array)
       phrase += num_person
     end
   end
-  phrase
+  puts phrase
 end
